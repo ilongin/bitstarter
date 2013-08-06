@@ -17,7 +17,7 @@ app.listen(port, function() {
 
 
 function readFromIndex(callback){
-fs.readFile('./index2.html', 'utf8', function (err,data) {
+fs.readFile('./index.html', 'utf8', function (err,data) {
   if (err) {
     return console.log(err);
   }
